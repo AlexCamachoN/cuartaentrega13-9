@@ -3,3 +3,24 @@
 hr{
 	color: aqua;
 }
+
+//boton flotante de wsa
+.boton-whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.footer__links {
+	display: flex;
+	justify-content: center;
+	height: 4vh;
+
+	a {
+		width: 10%;
+	}
+
+	img {
+		height: 100%;
+	}
+}
