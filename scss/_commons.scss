@@ -42,16 +42,7 @@ $lang:frejol50;
 
  }
 
-.icon-lang{
-	width: 200px;
-	height: 200px;
-	background-size:cover;
-	background-position:center;
-	@if $lang==frejol50{background-image: url(../img/frejol50.jpg)}
-	@else if $lang==manzanam{background: url(../img/manzanam.jpg)}
-	@else if $lang==marina{background: url(../img/marina.jpg)}
-	@else{background: url(../img/logo.jpg)};
-}
+
 
 @for $i from 1 through 6{
 		h#{$i}{
