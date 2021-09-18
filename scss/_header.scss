@@ -1,6 +1,6 @@
-//header de index
+//header de index-porque en responsive deja bastante espacio?
 #headerHome{
-	height: 120vh
+	height: 60vh
 }
 //header de obrashtml
 .headerobras{
@@ -11,6 +11,9 @@
 }
 
 @media only screen and (min-width: 992px){
+	#headerHome{
+		height: 60vh
+	}
 	.headerobras{
 		height: 50vh;
 		background: url(../img/frejol.jpeg) top center;
