@@ -4,6 +4,10 @@ hr{
 	color: aqua;
 }
 
+#footerletra{
+	font-size: 5em;
+}
+
 //boton flotante de wsa
 .boton-whatsapp {
 	position: fixed;
@@ -27,13 +31,7 @@ hr{
 @media screen and (max-width: 580px) {
 
     .footer__links {
-
-
-
         justify-content: space-around;
-
-
-
     }
 
     
